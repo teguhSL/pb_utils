@@ -80,6 +80,6 @@ def plot_compare(nrows, ncols, datas, colors, labels, titles=None, filename=None
     plt.show()
     return fig
 
-def setCamera(distance = 1.8, yaw=90, pitch=-10, target_position=[0.4, 0., 1):
+def setCamera(distance = 1.8, yaw=90, pitch=-10, target_position=[0.4, 0., 1]):
     p.resetDebugVisualizerCamera(cameraDistance=distance, cameraYaw=yaw, cameraPitch=pitch, cameraTargetPosition=target_position)
 
